@@ -1,1 +1,31 @@
 ### Welcome to Design Pattern
+
+#### List Patterns
+- Creation
+  - Builder
+  - Factories
+    - Abstract Factory
+    - Factory Method
+  - Prototype
+  - Singleton
+- Structural
+  - Adapter
+  - Bridge
+  - Composite
+  - Decorator
+  - Facade
+  - Flyweight
+  - Proxy
+- Behavioural
+  - Chain of Responsibility
+  - Command
+  - Interpreter
+  - Iterator
+  - Mediator
+  - Memento
+  - Null Object
+  - Observer
+  - State
+  - Strategy
+  - Template Method
+  - Visitor
