@@ -8,6 +8,9 @@ public class FactoryMethod {
         Point origin = Point.ORIGIN;
 
         Point point1 = Point.Factory.newCartesianPoint(1, 2);
+
+        Point point2 = PointFactory.newCartesianPoint(2, 3);
+        Point point3 = PointFactory.newPolarPoint(3, 5);
     }
 }
 
@@ -21,7 +24,7 @@ class Point
 {
     private double x, y;
 
-    protected Point(double x, double y)
+    public Point(double x, double y)
     {
         this.x = x;
         this.y = y;
@@ -62,19 +65,29 @@ class Point
         return new Point(rho*Math.cos(theta), rho*Math.sin(theta));
     }
 
+    /* Best practise */
     public static class Factory
     {
         public static Point newCartesianPoint(double x, double y)
         {
             return new Point(x,y);
         }
+
+        public static Point newPolarPoint(double rho, double theta)
+        {
+            return new Point(rho*Math.cos(theta), rho*Math.sin(theta));
+        }
     }
 }
 
-class PointFactory
-{
+class PointFactory {
     public static Point newCartesianPoint(double x, double y)
     {
         return new Point(x,y);
+    }
+
+    public static Point newPolarPoint(double rho, double theta)
+    {
+        return new Point(rho*Math.cos(theta), rho*Math.sin(theta));
     }
 }
