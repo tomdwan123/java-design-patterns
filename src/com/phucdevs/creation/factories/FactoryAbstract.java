@@ -102,13 +102,13 @@ class HotDrinkMachine
         {
             String s = drink.toString();
             String factoryName = "" + Character.toUpperCase(s.charAt(0)) + s.substring(1).toLowerCase();
-            Class<?> factory = Class.forName("com.activemesa.creational.factories." + factoryName + "Factory");
+            Class<?> factory = Class.forName("com.phucdevs.creational.factories." + factoryName + "Factory");
             factories.put(drink, (IHotDrinkFactory) factory.getDeclaredConstructor().newInstance());
         }
 
         // option 2: find all implementors of IHotDrinkFactory
         Set<Class<? extends IHotDrinkFactory>> types =
-                new Reflections("com.activemesa.creational.factories") // ""
+                new Reflections("com.phucdevs.creational.factories") // ""
                         .getSubTypesOf(IHotDrinkFactory.class);
         for (Class<? extends IHotDrinkFactory> type : types)
         {
