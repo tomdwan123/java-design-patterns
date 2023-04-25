@@ -43,7 +43,7 @@ interface RelationshipBrowser
     List<Person> findAllChildrenOf(String name);
 }
 
-class Relationships implements RelationshipBrowser
+class Relationships implements RelationshipBrowser // low-level
 {
     public List<Person> findAllChildrenOf(String name) {
 
@@ -69,7 +69,7 @@ class Relationships implements RelationshipBrowser
     }
 }
 
-class Research
+class Research // high-level
 {
     public Research(Relationships relationships)
     {
