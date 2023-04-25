@@ -23,7 +23,10 @@
     - Builder providers an API for constructing an object step-by-step
   - Factories
     - Abstract Factory
+      - A factory can take care of object creation
+      - A factory can be external or reside inside the object as an inner class
     - Factory Method
+      - Is a static method that creates objects
   - Prototype
   - Singleton
 - Structural
