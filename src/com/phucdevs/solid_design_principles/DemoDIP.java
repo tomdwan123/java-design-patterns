@@ -61,22 +61,16 @@ interface Scanner {
 class JustAPrinter implements Printer {
 
     @Override
-    public void print(Document document) {
-
-    }
+    public void print(Document document) {}
 }
 
 class PhotoCopier implements  Printer, Scanner {
 
     @Override
-    public void print(Document document) {
-
-    }
+    public void print(Document document) {}
 
     @Override
-    public void scan(Document document) {
-
-    }
+    public void scan(Document document) {}
 }
 
 interface MultiFunctionDevice extends Printer, Scanner {}
