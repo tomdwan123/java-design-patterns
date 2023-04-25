@@ -1,6 +1,5 @@
 package com.phucdevs.creation.factories;
 
-/*
 import org.javatuples.Pair;
 import org.reflections.Reflections;
 
@@ -17,14 +16,14 @@ public class FactoryAbstract {
 
     HotDrinkMachine machine = new HotDrinkMachine();
     IHotDrink tea = machine.makeDrink(HotDrinkMachine.AvailableDrink.TEA, 200);
-        tea.consume();
+    //tea.consume();
 
     // interactive
     IHotDrink drink = machine.makeDrink();
 
     public FactoryAbstract() throws Exception {
     }
-        drink.consume();
+    //drink.consume();
 }
 
 interface IHotDrink
@@ -153,4 +152,4 @@ class HotDrinkMachine
     {
         return ((IHotDrinkFactory)factories.get(drink)).prepare(amount);
     }
-}*/
+}
