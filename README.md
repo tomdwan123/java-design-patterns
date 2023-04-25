@@ -16,6 +16,11 @@
     - High level modules should not depend upon low-level ones, user abstractions
 - Creation
   - Builder
+    - Some  are simple and can be created in s single constructor call
+    - Other objects require a lot of ceremony to create
+    - Having an object with 10 constructor arguments is not productive
+    - Instead, opt for piecewise construction
+    - Builder providers an API for constructing an object step-by-step
   - Factories
     - Abstract Factory
     - Factory Method
