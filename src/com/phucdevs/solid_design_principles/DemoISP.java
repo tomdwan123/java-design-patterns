@@ -2,9 +2,9 @@ package com.phucdevs.solid_design_principles;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.javatuples.Triplet;
+//import org.javatuples.Triplet;
 
-public class DemoISP {
+/*public class DemoISP {
 
     public static void main(String[] args) {
         Person parent = new Person("John");
@@ -41,8 +41,9 @@ class Person
 interface RelationshipBrowser
 {
     List<Person> findAllChildrenOf(String name);
-}
+}*/
 
+/*
 class Relationships implements RelationshipBrowser // low-level
 {
     public List<Person> findAllChildrenOf(String name) {
@@ -87,4 +88,4 @@ class Research // high-level
         for (Person child : children)
             System.out.println("John has a child called " + child.name);
     }
-}
+}*/
