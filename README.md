@@ -34,6 +34,8 @@
       - Serialize and deserialize
     - Customize the resulting instance
   - Singleton
+    -  A component which is instantiated only once
+    - Making a safe singleton is easy: construct a static Lazy<T> and return its Value
 - Structural
   - Adapter
   - Bridge
