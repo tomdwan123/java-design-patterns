@@ -44,6 +44,9 @@
     - Create a component which aggregates (has a reference to, ...) the adaptee
     - Intermediate representations can pile up: user caching and other optimizations
   - Bridge
+    - couple abstraction from implementation
+    - Both can exist as hierarchies
+    - A stronger form of encapsulation
   - Composite
   - Decorator
   - Facade
