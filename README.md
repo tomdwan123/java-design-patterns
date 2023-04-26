@@ -34,10 +34,15 @@
       - Serialize and deserialize
     - Customize the resulting instance
   - Singleton
-    -  A component which is instantiated only once
+    - A component which is instantiated only once
     - Making a safe singleton is easy: construct a static Lazy<T> and return its Value
 - Structural
   - Adapter
+    - A construct which adapts an existing interface X to conform to the required interface Y
+    - Implementing an Adapter is easy
+    - Determine the API you have and the API you need
+    - Create a component which aggregates (has a reference to, ...) the adaptee
+    - Intermediate representations can pile up: user caching and other optimizations
   - Bridge
   - Composite
   - Decorator
