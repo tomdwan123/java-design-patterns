@@ -83,7 +83,7 @@ class LineToPointAdapter extends ArrayList<Point>
     public LineToPointAdapter(Line line)
     {
         System.out.println(
-                String.format("%d: Generating points for line [%d,%d]-[%d,%d] (no caching)",
+                String.format("%d: Generating points for line [%d,%d]-[%d,%d](no caching)",
                         ++count, line.start.x, line.start.y, line.end.x, line.end.y));
 
         int left = Math.min(line.start.x, line.end.x);
