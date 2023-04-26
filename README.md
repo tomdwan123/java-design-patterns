@@ -62,3 +62,8 @@
   - Strategy
   - Template Method
   - Visitor
+
+-----------------------------------------------------------------------
+#### Diagram patterns
+- Adapter
+![adapter.png](adapter.png)
