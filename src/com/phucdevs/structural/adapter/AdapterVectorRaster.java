@@ -1,4 +1,4 @@
-package com.phucdevs.creation.adapter;
+package com.phucdevs.structural.adapter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
