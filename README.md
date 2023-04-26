@@ -48,6 +48,12 @@
     - Both can exist as hierarchies
     - A stronger form of encapsulation
   - Composite
+    - Objects can use other objects via inheritance/composition
+    - Some composed and singular objects need similar/identical behaviours
+    - Composite design pattern lets us treat both types of objects uniformly
+    - Java supports container iteration with the Iterable<T> interface
+    - A single object can masquerade as a collection by returning a single-element
+      collection containing only this
   - Decorator
   - Facade
   - Flyweight
