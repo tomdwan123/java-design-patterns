@@ -63,6 +63,11 @@
     - May wish to (optionally) expose internals through the facade
     - May allow users to escalate to use more complex APIs if they need to
   - Flyweight
+    - Store common data externally
+    - Specify an index or a reference into the external data store
+    - Define the idea of ranges on homogeneous collections and store 
+      data related to those ranges
+    - Don't forget String.intern()
   - Proxy
 - Behavioural
   - Chain of Responsibility
