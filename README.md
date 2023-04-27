@@ -69,6 +69,11 @@
       data related to those ranges
     - Don't forget String.intern()
   - **Proxy**
+    - A proxy has the same interface as the underlying object
+    - To create a proxy, simply replicate the existing interface of an object
+    - Add relevant functionality to the redefined member functions
+    - Different proxies (communication, logging caching ...) have 
+      completely different behaviours
 - Behavioural
   - Chain of Responsibility
   - Command
