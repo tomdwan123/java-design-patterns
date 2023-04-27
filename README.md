@@ -59,6 +59,9 @@
     - A decorator keeps the reference to the decorated objects
     - May or may not forward calls
   - Facade
+    - Build a Facade to provide simplified API over a set of classes
+    - May wish to (optionally) expose internals through the facade
+    - May allow users to escalate to use more complex APIs if they need to
   - Flyweight
   - Proxy
 - Behavioural
