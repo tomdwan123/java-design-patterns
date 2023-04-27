@@ -1,5 +1,7 @@
 package com.phucdevs.structural.decorator;
 
+import java.util.stream.IntStream;
+
 public class DecoratorAdapter {
 
     public static void main(String[] args) {
