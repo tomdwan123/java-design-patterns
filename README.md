@@ -1,7 +1,7 @@
 ### Welcome to Design Pattern
 
 #### List Patterns
-- Solid
+- **Solid**
   - Single Responsibility Principle
     - A class should only have one reason to change
     - Separation of concerns - different classes handling different, independent tasks/problems
@@ -15,29 +15,29 @@
   - Dependency Inversion Principle
     - High level modules should not depend upon low-level ones, user abstractions
 - Creation
-  - Builder
+  - **Builder**
     - Some  are simple and can be created in s single constructor call
     - Other objects require a lot of ceremony to create
     - Having an object with 10 constructor arguments is not productive
     - Instead, opt for piecewise construction
     - Builder providers an API for constructing an object step-by-step
-  - Factories
+  - **Factories**
     - Abstract Factory
       - A factory can take care of object creation
       - A factory can be external or reside inside the object as an inner class
     - Factory Method
       - Is a static method that creates objects
-  - Prototype
+  - **Prototype**
     - To implement a prototype, partially construct an object and store it somewhere
     - Clone the prototype
       - Implement your own deep copy functionality or
       - Serialize and deserialize
     - Customize the resulting instance
-  - Singleton
+  - **Singleton**
     - A component which is instantiated only once
     - Making a safe singleton is easy: construct a static Lazy<T> and return its Value
 - Structural
-  - Adapter
+  - **Adapter**
     - A construct which adapts an existing interface X to conform to the required interface Y
     - Implementing an Adapter is easy
     - Determine the API you have and the API you need
@@ -68,7 +68,7 @@
     - Define the idea of ranges on homogeneous collections and store 
       data related to those ranges
     - Don't forget String.intern()
-  - Proxy
+  - **Proxy**
 - Behavioural
   - Chain of Responsibility
   - Command
