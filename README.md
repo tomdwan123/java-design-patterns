@@ -55,6 +55,9 @@
     - A single object can masquerade as a collection by returning a single-element
       collection containing only this
   - Decorator
+    - Facilitates the addition of behaviors to individual objects without inheriting from example
+    - A decorator keeps the reference to the decorated objects
+    - May or may not forward calls
   - Facade
   - Flyweight
   - Proxy
